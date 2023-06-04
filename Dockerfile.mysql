@@ -2,7 +2,7 @@
 FROM mysql:8.0
 
 # Mengatur variabel lingkungan
-ENV MYSQL_ROOT_PASSWORD alba
+ENV MYSQL_ROOT_PASSWORD faizin
 
 # Menyalin file SQL ke dalam container
-COPY siswa.sql /docker-entrypoint-initdb.d/siswa.sql
+COPY penginapan_id.sql /docker-entrypoint-initdb.d/penginapan_id.sql
